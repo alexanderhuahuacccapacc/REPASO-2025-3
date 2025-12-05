@@ -8,7 +8,7 @@ public class Animales2 {
         System.out.println("Durmiendo animal_2");
     }
 }
-
+//usamnos protected para poder usarlo en la clase hija
 class Perro1 extends Animales2 {
     protected void hablar(){
         System.out.println("Hablar");

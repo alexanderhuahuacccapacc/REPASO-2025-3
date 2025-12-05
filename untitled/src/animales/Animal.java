@@ -8,7 +8,8 @@ public class Animal {
         System.out.println("Durmiendo del animal 1");
     }
 }
-
+//Usamos extends para heredar propiedades de la clase padre
+//Usamos public para poder usarla en otra clase
 class Perro extends Animal {
     public void hablar(){
         System.out.println("Hablar");
